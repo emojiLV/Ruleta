@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector Aleatorio ESP32</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Selector Aleatorio ESP32</h1>
+
+    <!-- Ingresar opciones -->
+    <h4>Opciones (separadas por coma)</h4>
+    <input type="text" id="opcionesInput" value="Opción 1, Opción 2, Opción 3" placeholder="Ej: Pizza, Hamburguesa, Tacos">
+    <br><br>
+    
+    <!-- Botón en la página web -->
+    <button onclick="seleccionarAleatorio()">Sortear</button>
+
+    <!-- Resultado -->
+    <h2 id="resultado">Resultado: -</h2>
+
+    <!-- Indicador del estado del botón físico de la ESP32 -->
+    <h4>Botón Físico - GPIO 27</h4>
+    <div id="indicador" class="indicador"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

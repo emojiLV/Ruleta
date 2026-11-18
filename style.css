@@ -1,0 +1,56 @@
+html {
+    display: inline-block;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    background-color: #b30000;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #800000;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-top: 20px;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+.indicador {
+    width: 68px;
+    height: 68px;
+    margin: 0px auto;
+    border-radius: 6px;
+    background-color: #ccc;
+    transition: background-color 0.2s;
+}
+
+.indicador.activo {
+    background-color: green;
+}
